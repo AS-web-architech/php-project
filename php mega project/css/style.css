@@ -1,0 +1,41 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;1,300;1,700&family=DM+Serif+Display:ital@1&family=Petit+Formal+Script&family=Tilt+Prism&display=swap');
+  /* font-family: 'Averia Serif Libre', cursive;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Petit Formal Script', cursive;
+  font-family: 'Tilt Prism', cursive; */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body,html{
+  font-size: 14px;
+  overflow-y: hidden;
+
+}
+.navbar .img-fluid{
+    height: 80px;
+    width: 180px;
+
+}
+.navbar{
+    height: 80px;background: #1d1d1d;
+}
+.navbar .nav-link{
+    font-family: 'Averia Serif Libre', cursive;
+}
+.navbar .nav-item .nav-link{
+   color: #fff;
+}
+.navbar .nav-item .nav-link.active{
+    color: red;
+}
+.navbar  .navbar-nav .nav-link:hover{
+    color: red;
+}
+.navbar  .navbar-nav .nav-link{
+    text-align: right;
+
+}
