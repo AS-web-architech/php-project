@@ -16,9 +16,9 @@ if ($row == 0) {
 
 } else
 {
-    $_SESSION['admin'] = $AdminName;
+    $_SESSION['adminName'] = $AdminName;
     echo "<script>alert('Login Successfully!')</script>";
-    echo "<script>window.location.href ='http://localhost/php%20mega%20project/admin/index.php';</script>"; 
+    echo "<script>window.location.href ='http://localhost/php%20mega%20project/AdminPanel/Pages/index.php';</script>"; 
  
 }
 }

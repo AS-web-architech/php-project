@@ -1,6 +1,6 @@
 
 <?php
-
+include "conn.ph";
 include "./pages/bootstrap.php";
 
 
